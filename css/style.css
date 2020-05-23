@@ -1,0 +1,14 @@
+#container {
+    float:center;
+    width:100%;
+}
+
+#leftArea {
+    float:left;
+    width:25%;
+}
+
+#canvasArea {
+    float:right;
+    width:75%;
+}

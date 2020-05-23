@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>DSP project</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <div id="container">
+
+            <div id="leftArea">
+                <h1>數位信號處理專案</h1>
+
+                <div id="playerArea">
+                    <audio id="audio" controls></audio>
+                    <br>
+                    <br>
+                    <input type="file" id="file-input" accept="audio/*, video/*,image/*" />
+                </div>
+
+
+                <div id="textArea">
+                    <p id="number_of_channels">Number of channals: </p>
+                    <p id="sample_rate">Sample Rate: </p>
+                    <p id="frequency">Max / Min Frequency: </p>
+                    <p id="fft_size">FFT size: </p>
+                    <p id="frequency_bit_count">Frequency Bit Count: </p>
+                    <p id="frequency_resolution">Frequency Resolution: </p>
+                    <p id="decibels">Max / Min Decibels: </p>
+                    <p id="threshold">Threshold: </p>
+                    <p id="fps">Render FPS: </p>
+                </div>
+            </div>
+
+    
+            <div id="canvasArea">
+                <canvas id="canvas"></canvas>
+                <br>
+                <br>
+                <canvas id="canvas2"></canvas>
+            </div>
+        </div>
+
+
+        <script src="js/index.js" async></script>
+    </body>
+</html>
