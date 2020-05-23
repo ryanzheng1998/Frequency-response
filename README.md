@@ -2,7 +2,7 @@
 
 > 2018 年的專案，當時剛從 C / C++ 踏入 JavaScript 的世界，所以可以在程式碼中找到很多 C / C++ 的影子。
 
-![界面](https://github.com/ryanzheng1998/Frequency-response/blob/img/demo.png?raw=true)
+![界面](https://github.com/ryanzheng1998/Frequency-response/blob/master/img/demo.png?raw=true)
 
 ## 關鍵字
 
